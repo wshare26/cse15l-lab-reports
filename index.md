@@ -3,15 +3,17 @@
 ---
 > 01/11/2024
 # ***Hello, World!***
-I like:
+`I like:`
 * tennis
 * trying new food
 * reading
 
-I dislike: 
+`I dislike:` 
 1. messing up my sleep schedule
 2. being stressed
 
-`Cool Squirtle:` 
+```
+Cool Squirtle:
+```
 
 ![image](https://github.com/wshare26/cse15l-lab-reports/assets/156359336/d3742bc2-fcb5-41df-ad84-ffa32171b46a)
