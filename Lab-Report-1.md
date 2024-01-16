@@ -1,4 +1,5 @@
-# ***CSE 15L lab report***
+# ***CSE 15L lab report***   
+Name: William Share
 
 ***cd***
 ---
