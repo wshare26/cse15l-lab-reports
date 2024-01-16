@@ -48,7 +48,7 @@ The working directory when the command was run was `/home` as seen when `pwd` wa
 
 When using `ls` with a directory, it lists all of the contents (directories and files) that are within the directory. In this case it lists all of the contents inside the `lecture1` directory.
 
-This outpis is not an error because it is listing all of the contents inside the argument (directory).
+This output is not an error because it is listing all of the contents inside the argument (directory).
 
 ---
 ![image](https://github.com/wshare26/cse15l-lab-reports/assets/156359336/ce34b966-c7ef-4691-b8e4-d3edb6a4dfc4)
@@ -57,7 +57,7 @@ The working directory when the command was run was `/home/lecture1/messages` as 
 
 When using `ls` with a file such as the `en-us.txt` flie, it returns the `en-us.txt` file because it cannot show the files and directories of a directory as the `en-us.txt` file is not a directory.
 
-This output is not an error because the `ls` command lists all of the files and directories within a specified directory. However, when the argument is a file, it will just display the file name because it cannot list the files and directories within a file.
+This output is not really an error because the `ls` command lists all of the files and directories within a specified directory. However, when the argument is a file, it will just display the file name because it cannot list the files and directories within a file.
 
 
 ***cat***
