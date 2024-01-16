@@ -15,7 +15,7 @@ This output is not an error. When `cd` is used without an argument it should ret
 
 The working directory when the command was run was `/home` as seen when `pwd` was run.
 
-When using `cd` with a folder (directory) as an argument, the working directory changes to that folder (directory).
+When using `cd` with a folder (directory) as an argument, the working directory changes to that directory.
 
 This output is not an error because when `cd` is used with a folder as an argument it switches into that. It changes its directory to the specified argument when it is a folder.
 
