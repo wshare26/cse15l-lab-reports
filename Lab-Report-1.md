@@ -58,7 +58,7 @@ The working directory when the command was run was `/home/lecture1/messages` as 
 
 When using `ls` with a file such as the `en-us.txt` flie, it returns the `en-us.txt` file because it cannot show the files and directories of a directory as the `en-us.txt` file is not a directory.
 
-This output is not really an error because the `ls` command lists all of the files and directories within a specified directory. However, when the argument is a file, it will just display the file name because it cannot list the files and directories within a file (contains no files/directories).
+This output is not an error because the `ls` command lists all of the files and directories within a specified directory. However, when the argument is a file, it will just display the file name because it cannot list the files and directories within a file (contains no files/directories).
 
 
 ***cat***
@@ -69,7 +69,7 @@ The working directory when the command was run was `/home` as seen when `pwd` wa
 
 When using `cat` with no argument(s), you will be able to continue typing into the terminal where it will reiterate to you what the input you typed. When I press `ctrl + c` I can exit.
 
-This output is not really an error because `cat` is used to list the contents of a file. However, when there is no file for it to list (no file is given as an argument) it cannot list anything which causes it to reiterate the input given to the terminal and will read from the terminal because it has no files to read.
+This output is not an error because `cat` is used to list the contents of a file. However, when there is no file for it to list (no file is given as an argument) it cannot list anything which causes it to reiterate the input given to the terminal and will read from the terminal because it has no files to read.
 
 ---
 
