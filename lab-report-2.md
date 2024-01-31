@@ -21,7 +21,7 @@ when `ChatServer` has added `/add-message?s=Hello&user=jpolitz`
 
 The methods that are called when are the `handleRequest` method which handles the `/add-message?s=Hello&user=jpolitz`. The methods within this method that are also used are the `getPath`, `equals`, `contains`, `getQuery`, sand `split`. The `getPath` method within the if statement gets the path part of the url, in this case it would get the `/add-message` part of the url and uses the `contains` method to see if it contains `/add-message`. Within this if statement, the methods `getQuery` and `split` are used to split up the url into different String arrays. Afterwards, the parameters are checked to see if they are valid by using the `equals` method and if they are, the correct parameters are added to the starting message.
 
-The relevant argument 
+The relevant argument to the methods are the url that is being added which in this case would be `/add-message?s=Hello&user=jpolitz`. This is because the methods such as `getQuery`,  `split`, and the `equals` method splits up the query part of the `url`, and checks to see if it is equal to the conditions. In this case it is and it can proceed to add the user and the user's message to the next line. The value of the `startingmessage` field would be empty because there has not been anything added yet. After code has added the user and the user's message, the value of the `startingmessage` becomes `jpolitz: Hello`.
 
 The values of `startingmessage` can change (which it does in this case) if the conditions of values inside the if statement are true. If the condition is true, then the `startingmessage` adds the user and the user's message.
 
@@ -33,7 +33,9 @@ when `ChatServer` has added `/add-message?s=How are you&user=yash`
 
 The relevant methods that are called are the `getQuery`,  `split`, and the `equals` method.
 
-The relevant argument 
+The relevant argument to the methods are the url that is being added which in this case would be `/add-message?s=How are you&user=yash`. This is because the methods such as `getQuery`,  `split`, and the `equals` method splits up the query part of the `url`, and checks to see if it is equal to the conditions. In this case it is and it can proceed to add the user and the user's message to the next line. The value of the `starting message` field would be `jpolitz: Hello` because it was added in previously. After the code has added the user and the user's message to the starting message, the value of the `startingmessage` becomes
+`jpolitz:Hello`
+`yash: How+are+you` in separate lines.
 
 
 The values of `startingmessage` can change (which it does in this case) if the conditions of values inside the if statement are true. If the condition is true, then the `startingmessage` adds the user and the user's message to the next line.
