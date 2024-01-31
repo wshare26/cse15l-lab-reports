@@ -33,7 +33,7 @@ when `ChatServer` has added `/add-message?s=How are you&user=yash`
 
 The relevant methods that are called are the `getQuery`,  `split`, and the `equals` method.
 
-
+The relevant argument 
 
 
 The values of `startingmessage` can change (which it does in this case) if the conditions of values inside the if statement are true. If the condition is true, then the `startingmessage` adds the user and the user's message to the next line.
@@ -43,11 +43,19 @@ The values of `startingmessage` can change (which it does in this case) if the c
 ---
 `absolute path to the private key for your SSH key for logging into ieng6`
 
+![image](https://github.com/wshare26/cse15l-lab-reports/assets/156359336/40b7f6c6-1a77-40d2-a4da-b189ed4e8893)
+
+After typing in `ssh-keygen` into the terminal, it generates a file to save the key. The identification was saved in `/home/.ssh/id_ed25519` which I `ls` to show that it is there. 
 
 ---
 
 
 `absolute path to the public key for your SSH key for logging into ieng6`
+
+![image](https://github.com/wshare26/cse15l-lab-reports/assets/156359336/2ce273f2-f840-42c9-b2ae-689054fe4315)
+
+After using `scp` to copy the key to the server. I was able to use `ls` to show that the public key is there.
+
 
 ---
 
@@ -56,10 +64,12 @@ The values of `startingmessage` can change (which it does in this case) if the c
 
 ![image](https://github.com/wshare26/cse15l-lab-reports/assets/156359336/509af768-d213-49a8-afdd-bd70fc985af8)
 
+Because I `scp` the path to the public key to the server, it is saved there and I am able to log in without using my password.
+
 
 
 ***Part 3***
 ---
-I think the biggest thing that I have learned in week 3 was learning how to edit the code of NumberServer.java. 
+I think the biggest thing that I have learned in week 3 was learning how to edit the code of NumberServer.java to make the intended usage slightly different. This is because when we first started the server, all that we had done was git clone an implementation of a web server that was given to us. However, in the lab report, we had to change the code to make it fit the requirements which caused me to learn more about the `getQuery`, `getPath`, `contains`, and `split` methods. As a result, I was able to change the code of the NumberServer.java and make it so that it fits the requirements of lab report 2.
 
 
