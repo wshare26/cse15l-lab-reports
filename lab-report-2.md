@@ -54,7 +54,8 @@ After typing in `ssh-keygen` into the terminal, it generates a file to save the 
 
 `absolute path to the public key for your SSH key for logging into ieng6`
 
-![image](https://github.com/wshare26/cse15l-lab-reports/assets/156359336/2ce273f2-f840-42c9-b2ae-689054fe4315)
+![image](https://github.com/wshare26/cse15l-lab-reports/assets/156359336/33c23bb8-0d89-4088-a40a-e21e4bb93872)
+
 
 After using `scp` to copy the key to the server. I was able to use `ls` to show that the public key is there.
 
