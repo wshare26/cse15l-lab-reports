@@ -96,9 +96,9 @@ This fix addresses the issue by adding all of the doubles up and subtracting onl
 
 
 
-Example 1:
+**Example 1:**
 Finding files that end in "21.txt"
-This command is finding for files in the current directory and its subdirectories that end with "21.txt". This would be useful for finding files that have a pattern or similarity in their names.
+This command is finding files in the current directory and its subdirectories that end with "21.txt". This would be useful for finding files that have a pattern or similarity in their names.
 
 ```
 [user@sahara ~/docsearch/technical]$ find . -type f -name "*21.txt"
@@ -112,9 +112,9 @@ This command is finding for files in the current directory and its subdirectorie
 ./biomed/1472-6750-2-21.txt
 ./biomed/1471-230X-2-21.txt
 ```
-Example 2:
+**Example 2:**
 Finding files that end in "33.txt"
-This command is finding for files in the current directory and its subdirectories that end with "33.txt". This would be useful for finding files that have a pattern or similarity in their names.
+This command is finding files in the current directory and its subdirectories that end with "33.txt". This would be useful for finding files that have a pattern or similarity in their names.
 
 
 ```
@@ -131,7 +131,7 @@ This command is finding for files in the current directory and its subdirectorie
 
 
 
-Example 3:
+**Example 3:**
 Finding file "1471-2105-3-38.txt"
 This command is searching the filesystem for a file names "1471-2105-3-38.txt" and suppressing all of the error messages. This would be useful if you wanted to know the location of a specific file.
 
@@ -142,7 +142,7 @@ This command is searching the filesystem for a file names "1471-2105-3-38.txt" a
 ```
 
 
-Example 4:
+**Example 4:**
 Finding file "chapter-1.txt"
 This command is searching the filesystem for a file names "chapter-1.txt" and suppressing all of the error messages. This would be useful if you wanted to know the location of a specific file.
 
@@ -158,7 +158,7 @@ This command is searching the filesystem for a file names "chapter-1.txt" and su
 
 
 
-Example 5:
+**Example 5:**
 Finding text "WE HAVE SOME PLANES"
 This command is searching for files that end in ".txt" in the /docsearch/technical/911report/ directory and its sub directories (there aren't any more subdirectories). For each ".txt" file, it uses grep to see if the file contains "We HAVE SOME PLANES" and if it does it prints the file's location along with the associated string that we used to search for it. This would be useful for locating files that contain specific text.
 ```
@@ -167,7 +167,7 @@ This command is searching for files that end in ".txt" in the /docsearch/technic
 ```
 
 
-Example 6:
+**Example 6:**
 Finding text "A DECLARTION OF WAR"
 This command is searching for files that end in ".txt" in the /docsearch/technical/911report/ directory and its sub directories (there aren't any more subdirectories). For each ".txt" file, it uses grep to see if the file contains "A DECLARATION OF WAR" and if it does it prints the file's location along with the associated string that we used to search for it. This would be useful for locating files that contain specific text.
 
@@ -184,7 +184,7 @@ This command is searching for files that end in ".txt" in the /docsearch/technic
 
 
 
-Example 7:
+**Example 7:**
 Listing directories in "docsearch/"
 This command lists all of the directories in the /docsearch/ directory and its subdirectories by using find. This would be useful by letting the user see what directories there are which could aid in guiding the user to a specific file.
 
@@ -214,7 +214,7 @@ This command lists all of the directories in the /docsearch/ directory and its s
 /home/docsearch/.git/hooks
 ```
 
-Example 8:
+**Example 8:**
 Listing directories in "docsearch/technical/"
 This command lists all of the directories in the /docsearch/technical directory and its subdirectories by using find. This would be useful by letting the user see what directories there are which could aid in guiding the user to a specific file.
 
