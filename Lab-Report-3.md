@@ -1,6 +1,7 @@
 # ***CSE 15L lab Report 3***   
 Name: William Share
 
+Sources used: https://www.redhat.com/sysadmin/linux-find-command,
 
 ## Part 1
 
@@ -61,7 +62,7 @@ As you can see the first test case expects 3.0 but the actual is 2.75 which is n
 
 The test case is failing due to not adding the lowest double to the sum. This works only when there is a unique lowest double, but when there are multiple lowest doubles present in the array, it does not work.
 
----
+
 
 **Method Fixed:**
 ```
