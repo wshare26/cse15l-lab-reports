@@ -6,7 +6,7 @@ Name: William Share
 ## Part 1
 
 
-Method used: averageWithoutLowest which takes a double array as an input and returns the average double of the values without the lowest value.
+Method with bug used: averageWithoutLowest which takes a double array as an input and returns the average double of the values without the lowest value.
 
 
 ```
