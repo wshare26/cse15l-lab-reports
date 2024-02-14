@@ -6,6 +6,25 @@ Name: William Share
 ## Part 1
 
 
+Method used: averageWithoutLowest which takes a double array as an input and returns the average double of the values without the lowest value.
+
+
+```
+  static double averageWithoutLowest(double[] arr) {
+    if(arr.length < 2) { return 0.0; }
+    double lowest = arr[0];
+    for(double num: arr) {
+      if(num < lowest) { lowest = num; }
+    }
+    double sum = 0;
+    for(double num: arr) {
+      if(num != lowest) { sum += num; }
+    }
+    return sum / (arr.length - 1);
+  }
+```
+
+
 **A Failure Inducing Input:**
 
 ```
