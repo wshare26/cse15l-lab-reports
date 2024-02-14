@@ -1,7 +1,7 @@
 # ***CSE 15L lab Report 3***   
 Name: William Share
 
-Sources used: https://www.redhat.com/sysadmin/linux-find-command,
+
 
 ## Part 1
 
@@ -94,6 +94,8 @@ This fix addresses the issue by adding all of the doubles up and subtracting onl
 
 **First interesting command-line option: Finding files that end in .txt**
 
+Sources used: https://www.redhat.com/sysadmin/linux-find-command (found by typing into google find command line options)
+
 
 
 **Example 1:**
@@ -128,6 +130,8 @@ This command is finding files in the current directory and its subdirectories th
 
 **Second interesting command-line option: Finding a single file by name:**
 
+Sources used: https://www.redhat.com/sysadmin/linux-find-command (found by typing into google find command line options)
+
 
 
 
@@ -156,6 +160,8 @@ This command is searching the filesystem for a file names "chapter-1.txt" and su
 
 **Third interesting command-line option: Finding file that contains various texts:**
 
+Sources used: https://www.redhat.com/sysadmin/linux-find-command (found by typing into google find command line options)
+
 
 
 **Example 5:**
@@ -180,6 +186,8 @@ This command is searching for files that end in ".txt" in the /docsearch/technic
 ---
 
 **Fourth interesting command-line option: Listing directories**
+
+Sources used: https://www.redhat.com/sysadmin/linux-find-command (found by typing into google find command line options)
 
 
 
