@@ -8,14 +8,14 @@ Name: William Share
 
 ![image](https://github.com/wshare26/cse15l-lab-reports/assets/156359336/7c0bb0f8-00ae-4d28-a23a-eb2652576e0d)
 
-I opened the terminal and typed `ssh wshare@ieng-201.ucsd.edu` and pressed  `<enter> `
+I opened the terminal and typed `ssh <space> wshare@ieng-201.ucsd.edu` and pressed  `<enter> `
 
 
 ***Step 5: Clone your fork of the repository from your Github account (using the SSH URL)***
 
 ![image](https://github.com/wshare26/cse15l-lab-reports/assets/156359336/99af031a-df93-479c-917e-1e381a457929)
 
-I copied the SSH URL to git clone. Afterwards, I typed in `git clone` and I pasted the copied link in and pressed `<enter>.` After the git clone is over I type `ls` and press `<enter>`to make sure that the directory is there.
+I copied the SSH URL to git clone. Afterwards, I typed in `git <space> clone` and I pasted the copied link in and pressed `<enter>.` After the git clone is over I type `ls` and press `<enter>`to make sure that the directory is there.
 
 ***Step 6: Run the tests, demonstrating that they fail***
 
@@ -23,11 +23,11 @@ I copied the SSH URL to git clone. Afterwards, I typed in `git clone` and I past
 ![image](https://github.com/wshare26/cse15l-lab-reports/assets/156359336/d460585c-138e-4cd7-b8fc-226c132d2b19)
 
 
-Afterwards I `cd` into the lab7 directory so that I can run the bash script to run the test files. I do this by typing `cd lab7` and `<enter>`. I then type `pwd` and `<enter>` to see my current directory
+Afterwards I `cd` into the lab7 directory so that I can run the bash script to run the test files. I do this by typing `cd <space> lab7` and `<enter>`. I then type `pwd` and `<enter>` to see my current directory
 
 ![image](https://github.com/wshare26/cse15l-lab-reports/assets/156359336/4b57a23f-6683-4d92-85e6-3433b1a06b08)
 
-I then type `bash test.sh` and `<enter>`into the terminal to run the bash script that runs the test cases. As we can see, one of the tests fails.
+I then type `bash <space> test.sh` and `<enter>`into the terminal to run the bash script that runs the test cases. As we can see, one of the tests fails.
 
 ***Step 7: Edit the code file to fix the failing test***
 
@@ -62,11 +62,11 @@ We can then press `x` to delete the `1` and then press `i` to enter insert mode 
 
 ![image](https://github.com/wshare26/cse15l-lab-reports/assets/156359336/91999f32-563e-4148-b478-b88d0d9ea1d8)
 
-Before running the tests, we can type `cat ListExamples.java` and `<enter>` to see if the changes were made in the line that we changed, as we can see the changes were made successfully so we can move on to running the tests.
+Before running the tests, we can type `cat <space> ListExamples.java` and `<enter>` to see if the changes were made in the line that we changed, as we can see the changes were made successfully so we can move on to running the tests.
 
 ![image](https://github.com/wshare26/cse15l-lab-reports/assets/156359336/20b25436-3b55-4ec4-915b-e8cbea9cdcbf)
 
-We retype `bash test.sh` `<enter>` into the terminal to compile and run the test cases and we now see that the test run successfully.
+We retype `bash <space> test.sh` `<enter>` into the terminal to compile and run the test cases and we now see that the test run successfully.
 
 
 ***Step 9:***
@@ -76,7 +76,7 @@ We retype `bash test.sh` `<enter>` into the terminal to compile and run the test
 ![image](https://github.com/wshare26/cse15l-lab-reports/assets/156359336/3b796d98-a4ba-4562-869e-4102198cdb5c)
 
 
-We type in `git add ListExamples.java` `<enter>` to stage a change for the next commit. Afterwards, we type `git commit -m "fixed index1 to index2 error"` `<enter>` to comitt to the Git Repository. Afterwards I push it by typing `git push origin main` `<enter>`
+We type in `git <space> add <space> ListExamples.java` `<enter>` to stage a change for the next commit. Afterwards, we type `git <space> commit <space> -m <space> "fixed index1 to index2 error"` `<enter>` to comitt to the Git Repository. Afterwards I push it by typing `git <space> push <space> origin <space> main` `<enter>`
 The changes made are now pushed to the fork of the repository on Github.
 
 
