@@ -78,7 +78,7 @@ We retype `bash test.sh` into the terminal to compile and run the test cases and
 ![image](https://github.com/wshare26/cse15l-lab-reports/assets/156359336/9f84579f-b96b-4841-be79-d0c5abf03e19)
 ![image](https://github.com/wshare26/cse15l-lab-reports/assets/156359336/08f4103a-3e8a-416b-acb2-c9a6fd7e5212)
 
-We type in `git add ListExamples.java` to stage a change for the next commit. Afterwards, we type 
+We type in `git add ListExamples.java` to stage a change for the next commit. Afterwards, we type `git commit -m "fixed index1 to index2 error"` to comi
 
 
 
