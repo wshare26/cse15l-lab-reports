@@ -8,14 +8,14 @@ Name: William Share
 
 ![image](https://github.com/wshare26/cse15l-lab-reports/assets/156359336/7c0bb0f8-00ae-4d28-a23a-eb2652576e0d)
 
-I opened the terminal and typed "ssh wshare@ieng-201.ucsd.edu" and pressed  `<enter> `
+I opened the terminal and typed `ssh wshare@ieng-201.ucsd.edu` and pressed  `<enter> `
 
 
 ***Step 5: Clone your fork of the repository from your Github account (using the SSH URL)***
 
 ![image](https://github.com/wshare26/cse15l-lab-reports/assets/156359336/99af031a-df93-479c-917e-1e381a457929)
 
-I copied the SSH URL to git clone. Afterwards, I typed in `git clone` and I pasted the copied link in and pressed `<enter>.` After the git clone is over I type ls and press `<enter>`to make sure that the directory is there.
+I copied the SSH URL to git clone. Afterwards, I typed in `git clone` and I pasted the copied link in and pressed `<enter>.` After the git clone is over I type `ls` and press `<enter>`to make sure that the directory is there.
 
 ***Step 6: Run the tests, demonstrating that they fail***
 
@@ -23,7 +23,7 @@ I copied the SSH URL to git clone. Afterwards, I typed in `git clone` and I past
 ![image](https://github.com/wshare26/cse15l-lab-reports/assets/156359336/d460585c-138e-4cd7-b8fc-226c132d2b19)
 
 
-Afterwards I `cd` into the lab7 directory so that I can run the bash script to run the test files. I do this by typing `cd` lab7 and `<enter>`. I then type `pwd` and `<enter>` to see my current directory
+Afterwards I `cd` into the lab7 directory so that I can run the bash script to run the test files. I do this by typing `cd lab7` and `<enter>`. I then type `pwd` and `<enter>` to see my current directory
 
 ![image](https://github.com/wshare26/cse15l-lab-reports/assets/156359336/4b57a23f-6683-4d92-85e6-3433b1a06b08)
 
@@ -40,21 +40,21 @@ We can use `vim` to edit the code. We can type vim List then press `<tab>` to au
 ![image](https://github.com/wshare26/cse15l-lab-reports/assets/156359336/e9f9098e-83cb-4b69-88e0-9dd9bb5e7512)
 
 
-We see that the error is where it says `index1 += 1;`, so we must move our cursor to that place. To do this we can press `j` `43` times to move the cursor down until it is on the same horizontal line as `index1 +=1;`. 
+We see that the error is where it says `index1 += 1;`, so we must move our vim cursor to that place. To do this we can press `j` `43` times to move the vim cursor down until it is on the same horizontal line as `index1 +=1;`. 
 
 
 
 ![image](https://github.com/wshare26/cse15l-lab-reports/assets/156359336/b8150ecc-7850-40c5-9fd6-7aa35d0b1ce7)
 
 
-We can then press `l` `11` times to get our cursor onto the `1` in `index1` to change.
+We can then press `l` `11` times to get our vim cursor onto the `1` in `index1` to change.
 
 
 ![image](https://github.com/wshare26/cse15l-lab-reports/assets/156359336/0315f78c-f68f-4f67-a4fe-cb36ec436c02)
 
 
 
-We can then press `x` to delete the `1` and then press `i` to insert the number that we want, that being 2. So we then type `2` and press `<esc>` to exit the insert mode. Afterwards, we can type :wq and `<enter>` to save and quit out of vim.
+We can then press `x` to delete the `1` and then press `i` to enter insert mode so that we can insert the number that we want, that being 2. So we then type `2` and press `<esc>` to exit the insert mode. Afterwards, we can type :wq and `<enter>` to save and quit out of vim.
 
 
 ***Step 8: Run the tests, demonstrating that they now succeed***
@@ -66,20 +66,18 @@ Before running the tests, we can type `cat ListExamples.java` and `<enter>` to s
 
 ![image](https://github.com/wshare26/cse15l-lab-reports/assets/156359336/20b25436-3b55-4ec4-915b-e8cbea9cdcbf)
 
-We retype `bash test.sh` into the terminal to compile and run the test cases and we now see that the tess run successfully.
-
-
-
-
+We retype `bash test.sh` `<enter>` into the terminal to compile and run the test cases and we now see that the test run successfully.
 
 
 ***Step 9:***
 
 ![image](https://github.com/wshare26/cse15l-lab-reports/assets/156359336/9f84579f-b96b-4841-be79-d0c5abf03e19)
 ![image](https://github.com/wshare26/cse15l-lab-reports/assets/156359336/08f4103a-3e8a-416b-acb2-c9a6fd7e5212)
+![image](https://github.com/wshare26/cse15l-lab-reports/assets/156359336/3b796d98-a4ba-4562-869e-4102198cdb5c)
 
-We type in `git add ListExamples.java` to stage a change for the next commit. Afterwards, we type `git commit -m "fixed index1 to index2 error"` to comi
 
+We type in `git add ListExamples.java` `<enter>` to stage a change for the next commit. Afterwards, we type `git commit -m "fixed index1 to index2 error"` `<enter>` to comitt to the Git Repository. Afterwards I push it by typing `git push origin main` `<enter>`
+The changes made are now pushed to the fork of the repository on Github.
 
 
 
