@@ -54,7 +54,7 @@ We can then press `l` `11` times to get our vim cursor onto the `1` in `index1` 
 
 
 
-We can then press `x` to delete the `1` and then press `i` to enter insert mode so that we can insert the number that we want, that being 2. So we then type `2` and press `<esc>` to exit the insert mode. Afterwards, we can type :wq and `<enter>` to save and quit out of vim.
+We can then press `x` to delete the `1` and then press `i` to enter insert mode so that we can insert the number that we want, that being 2. So we then type `2` and press `<esc>` to exit the insert mode. Afterwards, we can type `:wq` and `<enter>` to save and quit out of vim.
 
 
 ***Step 8: Run the tests, demonstrating that they now succeed***
